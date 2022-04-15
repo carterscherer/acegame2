@@ -1,0 +1,373 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* my code */
+
+* {
+    box-sizing: border-box;
+    margin 0;
+    padding 0;
+}
+
+
+
+
+
+img{
+    display block;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 80px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+.cff 
+    display: grid;
+    grid-template-columns: 159.01px 146px 150px 146px 1fr;
+    grid-template-rows: 155px 300px 150px;
+
+    grid-area: "1button";
+}
+
+
+
+
+.space {
+    grid-area: space;
+    height: 50px;
+    width: 50px;
+}
+
+
+/* this is for the main grid style */
+.body{
+
+    text-align: center;
+    text-align: middle;
+    font-family: Helvetica, Sans-Serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #fafafa00;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.contentaxe{
+    display: grid;
+    grid-template-columns: 20% 10% 5% 30% 7% 10% 18%;
+    grid-template-rows: 10% 80% 10%;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0 auto;
+    
+}
+
+
+
+.contentaxe div{
+    background-color: rgb(72, 61, 107);
+    
+}
+
+
+.contentaxe div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.contentaxe div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+.contentaxe2{
+    display: grid;
+    grid-template-columns: 20% 10% 5% 30% 7% 10% 18%;
+    grid-template-rows: 20% 80% 10% 200px;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0 auto;
+    
+}
+
+
+
+.contentaxe2 div{
+    background-color: rgb(72, 61, 107);
+    
+}
+
+
+.contentaxe2 div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.contentaxe2 div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+.splitbase{
+    float: left;
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+    
+}
+
+.splitbase div{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+.splitbase div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.splitbase div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+.splitbase2{
+    float: left;
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+    
+}
+
+.splitbase2 div{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+.splitbase2 div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.splitbase2 div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+.content{
+    display: grid;
+    grid-template-columns: 20% 10% 5% 15% 15% 7% 10% 13%;
+    grid-template-rows: 10% 40% 40% 10% 300px;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.content div{
+    background-color: rgb(72, 61, 107);
+    
+}
+
+
+.content div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.content div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+/* this is for the balloon and target style */
+
+.throwballoon{
+    display: grid;
+    grid-template-columns: 15% 15% 55% 5% 15% ;
+    grid-template-rows: 216px 648px 216px;
+    
+    margin: 0 auto;
+}
+
+
+
+.throwballoon div{
+    background-color: rgb(72, 61, 107);
+    margin: 0px;
+}
+
+
+.throwballoon div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.throwballoon div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+
+.throwballoon2{
+    display: grid;
+    grid-template-columns: 15% 15% 55% 5% 10% ;
+    grid-template-rows: 216px 648px 216px;
+    
+    margin: 0 auto;
+}
+
+
+
+.throwballoon2 div{
+    background-color: rgb(72, 61, 107);
+    margin: 0px;
+}
+
+
+.throwballoon2 div:nth-child(even) {
+
+   background-color:rgb(0, 0, 0);
+}
+.throwballoon2 div:nth-child(odd) {
+
+   background-color:rgb(0, 0, 0);
+}
+
+.thetimer{
+    
+    width: 10px;
+    height: 130px;
+    margin-top: 150px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg); /* Safari/Chrome */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -o-transform: rotate(-90deg); /* Opera */
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+    font-size: 40pt;
+    background-color: #000000;
+    
+}
+
+
+/* this is for the target grid style */
+
+
+.throwtarget{
+    display: grid;
+    grid-template-columns: 15% 10% 55% 10% 10% ;
+    grid-template-rows: 75px 275px 50px;
+    max-width: 960;
+    margin: 0 auto;
+}
+
+
+
+.throwtarget div{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 2px;
+}
+
